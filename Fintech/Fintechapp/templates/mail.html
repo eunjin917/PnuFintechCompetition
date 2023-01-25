@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+          }
+        
+        body {
+            font-family: 'ImcreSoojin';
+            border: 2px solid black;
+            margin: 30px;
+            padding: 30px;
+            border-color: rgba(0, 0, 0, 0.3);
+        }
+
+        #p1 {
+            background: rgba(0, 0, 0, 0.08);
+            padding: 25px;
+          }
+
+    </style>
+</head>
+
+<body>
+  <div>
+    <p id="p1" style="background: rgba(0, 0, 0, 0.08); padding: 25px;">
+        {{this_info.DELNG_DE}}의 {{this_info.CPR_NM}}의 {{this_info.PRDLST_NM}}-{{this_info.SPCIES_NM}}-{{this_info.GRAD}}의 거래 예측값은 1kg당
+        <span style="color: red;">{{this_info.PRI_PRED}}원</span>이었지만, 실제 거래 평균가는 <span style="color: red;">{{this_info.PRI_AVE}}원</span>입니다.
+        편차가 <span style="color: red;">{{this_error}}</span>으로 정상 편차 범위 <span style="color: red;">{{mean_error}}</span>를 벗어났기 때문에 부정 거래가 의심됩니다.
+    </p>
+  </div>
+  <div>
+    자세한 정보는 아래 사이트에서 확인하세요.
+    <br><a href="https://pnu-fintech.run.goorm.app/company_class/{{company_no}}/{{class_no}}">사이트 바로가기</a>
+  </div>
+</body>
+
+</html>
