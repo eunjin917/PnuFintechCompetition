@@ -19,6 +19,10 @@
 | :-------: | :------: | 
 |   ![Bo]   | ![Django]| 
 
+<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+
+
 <br>
 
 ## 구현 기능
