@@ -33,7 +33,7 @@
 최적의 예측 모델을 찾기 위해 simpleRNN, LSTM 모델로 입력층, 유닛수, optimizer로 하이퍼파라미터 튜닝을 하며 최적화된 모델을 찾았다.
 
 <p align="center">
-  <img width='50%' src="https://user-images.githubusercontent.com/95485737/226372065-e8bf7de3-f891-4390-b279-7682c0b31f8d.png">
+  <img width='30%' src="https://user-images.githubusercontent.com/95485737/226372065-e8bf7de3-f891-4390-b279-7682c0b31f8d.png">
 </p>
 
 ### 기능 2
