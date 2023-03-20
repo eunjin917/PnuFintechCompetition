@@ -32,9 +32,7 @@
 '전국 도매시장 일별 정산 경락가격 상세정보' 공공 데이터를 이용해 가격 예측 모델을 만들었다. 
 최적의 예측 모델을 찾기 위해 simpleRNN, LSTM 모델로 입력층, 유닛수, optimizer로 하이퍼파라미터 튜닝을 하며 최적화된 모델을 찾았다.
 
-<div style="text-align : center;">
   <img width='50%' src="https://user-images.githubusercontent.com/95485737/226369472-5f5b60ef-0679-4bfe-b325-4b8cfe15ed15.png">
-</div>
 
 ### 기능 2
 #### 선택한 법인-품목에 대한 실제 가격과 예측 가격을 그래프 통해 확인
