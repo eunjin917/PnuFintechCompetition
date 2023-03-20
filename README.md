@@ -18,8 +18,9 @@
 <br>
 
 ## 기술 스택
-
-<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+<div style="text-align : center;">
+  <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+</div>
 
 
 <br>
@@ -31,19 +32,26 @@
 '전국 도매시장 일별 정산 경락가격 상세정보' 공공 데이터를 이용해 가격 예측 모델을 만들었다. 
 최적의 예측 모델을 찾기 위해 simpleRNN, LSTM 모델로 입력층, 유닛수, optimizer로 하이퍼파라미터 튜닝을 하며 최적화된 모델을 찾았다.
 
-<img width='70%' src="https://user-images.githubusercontent.com/95485737/226369472-5f5b60ef-0679-4bfe-b325-4b8cfe15ed15.png">
+<div style="text-align : center;">
+  <img width='50%' src="https://user-images.githubusercontent.com/95485737/226369472-5f5b60ef-0679-4bfe-b325-4b8cfe15ed15.png">
+</div>
 
 ### 기능 2
 #### 선택한 법인-품목에 대한 실제 가격과 예측 가격을 그래프 통해 확인
 
 선택한 법인-품목에 대해 실제 가격(평균가, 최저가, 최고가)과 예측 가격을 비교해 정상 범위를 벗어나면 이상 감지한다. 이를 그래프를 통해 쉽게 비교할 수 있고, 해당 품목에 대해 선 그래프와 막대 그래프로 법인 별로 비교가 가능하다.  
 
-<img width='70%' src="https://user-images.githubusercontent.com/95485737/226368026-26d0590b-d981-4daf-ad56-48c81bad34cb.png">
-<img width='70%' src="https://user-images.githubusercontent.com/95485737/226368053-c88965ef-cb38-4e7f-b148-199392b5e6c6.png">
-<img width='70%' src="https://user-images.githubusercontent.com/95485737/226368064-792c48ab-d6c7-41a8-ae80-2b75187ab51c.png">
+<div style="text-align : center;">
+  <img width='60%' src="https://user-images.githubusercontent.com/95485737/226368026-26d0590b-d981-4daf-ad56-48c81bad34cb.png">
+  <img width='60%' src="https://user-images.githubusercontent.com/95485737/226368053-c88965ef-cb38-4e7f-b148-199392b5e6c6.png">
+  <img width='60%' src="https://user-images.githubusercontent.com/95485737/226368064-792c48ab-d6c7-41a8-ae80-2b75187ab51c.png">
+</div>
 
 ### 기능 3
 #### 카카오 봇을 통한 메일 알림 기능
 
 카카오 채널 친구추가로 원하는 품목과 법인을 선택하면, 가격 예측 모델이 이상 가격이 발생했다 판단하면 자동으로 메일로 알림을 준다.
 
+<div style="text-align : center;">
+  <img width='60%' src="https://user-images.githubusercontent.com/95485737/226371082-739be2d5-c754-46fc-8418-ac5668286611.png">
+</div>
